@@ -1,0 +1,12 @@
+{
+  "name": "sister-wives-search-bridge",
+  "version": "1.0.0",
+  "description": "Live Google Search & Grounding API gateway for Sister Wives Matchmaker desktop app",
+  "main": "api/search.js",
+  "scripts": {
+    "start": "node api/search.js"
+  },
+  "keywords": ["sister-wives", "google-search", "matchmaker", "vercel"],
+  "author": "REIGNorSH1NE",
+  "license": "MIT"
+}

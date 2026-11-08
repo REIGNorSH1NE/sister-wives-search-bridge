@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sister Wives — Live Google Search Bridge</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --card: #181b24;
+      --border: #282d3d;
+      --accent: #881337;
+      --accent-light: #be123c;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --success: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px;
+      max-width: 640px;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--success);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      margin-bottom: 16px;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--success); }
+    h1 { font-size: 1.6rem; font-weight: 700; margin-bottom: 8px; }
+    p { color: var(--muted); font-size: 0.95rem; line-height: 1.5; margin-bottom: 24px; }
+    .endpoint-box {
+      background: #0b0d12;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px;
+      font-family: monospace;
+      font-size: 0.88rem;
+      color: #38bdf8;
+      margin-bottom: 16px;
+      word-break: break-all;
+    }
+    .features {
+      list-style: none;
+      margin-bottom: 24px;
+    }
+    .features li {
+      padding: 8px 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .features li::before {
+      content: "✓";
+      color: var(--accent-light);
+      font-weight: bold;
+    }
+    .footer {
+      font-size: 0.8rem;
+      color: #64748b;
+      text-align: center;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge"><span class="dot"></span> Online & Operational</div>
+    <h1>Sister Wives Matchmaker</h1>
+    <p>Live Google Search Grounding & Web Discovery Bridge for the Sister Wives Desktop Application.</p>
+    
+    <div style="font-size: 0.82rem; font-weight: 600; color: var(--muted); margin-bottom: 6px;">SEARCH API ENDPOINT:</div>
+    <div class="endpoint-box">POST /api/search</div>
+
+    <ul class="features">
+      <li>Real-time Google Search Grounding for live internet results</li>
+      <li>Non-dating site open web discovery (forums, public directories, blogs)</li>
+      <li>Automatic candidate synthesis and criteria compatibility scoring</li>
+      <li>CORS enabled for direct Sister Wives Tauri Desktop integration</li>
+    </ul>
+
+    <div class="footer">
+      Deployed on Vercel • Dedicated to Sister Wives Matchmaker
+    </div>
+  </div>
+</body>
+</html>
